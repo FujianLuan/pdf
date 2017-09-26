@@ -7694,7 +7694,7 @@ exports.ViewHistory = ViewHistory;
 "use strict";
 
 
-var DEFAULT_URL = 'fujianluan.github.io/pdf/compressed.tracemonkey-pldi-09.pdf';
+var DEFAULT_URL = 'http://fujianluan.github.io/pdf/compressed.tracemonkey-pldi-09.pdf';
 ;
 var pdfjsWebApp;
 {
