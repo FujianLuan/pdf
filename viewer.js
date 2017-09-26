@@ -2035,7 +2035,8 @@ validateFileURL = function validateFileURL(file) {
     }
     var fileOrigin = new URL(file, window.location.href).origin;
     if (fileOrigin !== viewerOrigin) {
-      throw new Error('file origin does not match viewer\'s');
+      //throw new Error('file origin does not match viewer\'s');屏蔽跨域检测
+	  return;
     }
   } catch (e) {
     var message = e && e.message;
